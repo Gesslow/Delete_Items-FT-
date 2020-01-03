@@ -1,6 +1,6 @@
 <body>
-<div class="wrapper">
-    <center>
+  <div class="wrapper">
+     <center>
         <form action="" method="POST">
             <h3>
                 Введите артикул товаров для удаления:
@@ -8,10 +8,10 @@
             <textarea name="input_artikul" cols="55" rows="10"></textarea>
             <hr />
             <br /><br />
-        <button name="delete_button">УДАЛИТЬ ТОВАРЫ !</button>
-        </form>
-    </center>
-</div>
+            <button name="delete_button">УДАЛИТЬ ТОВАРЫ !</button>
+         </form>
+      </center>
+  </div>
 
 
 <?php
@@ -52,3 +52,6 @@ else
 mysqli_close( $connect );
 
 ?>
+
+    
+</body>    
