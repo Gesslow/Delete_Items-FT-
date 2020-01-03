@@ -1,3 +1,18 @@
+<body>
+<div class="wrapper">
+    <center>
+        <form action="" method="POST">
+            <h3>
+                Введите артикул товаров для удаления:
+            </h3>
+            <textarea name="input_artikul" cols="55" rows="10"></textarea>
+            <hr />
+            <br /><br />
+        <button name="delete_button">УДАЛИТЬ ТОВАРЫ !</button>
+        </form>
+    </center>
+</div>
+
 
 <?php
 ini_set("display_errors","1");
